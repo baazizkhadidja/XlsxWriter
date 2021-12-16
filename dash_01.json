@@ -1,0 +1,594 @@
+{
+    "page": {
+        "_id": {
+            "$oid": "61b0680c016252d4ca140e17"
+        },
+        "title": "ma super page",
+        "thumbnailConfig": {
+            "thumbnailType": "screenshot",
+            "thumbnailUpload": 3
+        },
+        "backgroundPageConfig": {
+            "backgroundPageType": "color",
+            "backgroundPageColor": "#F6F6F6",
+            "backgroundImageIsUploaded": false,
+            "backgroundImageUpload": 0,
+            "backgroundPageWithOpacity": false,
+            "backgroundPageWithBlur": false,
+            "backgroundPageBlurPurcent": "0",
+            "backgroundPageOpacityColor": ""
+        },
+        "weight": 1,
+        "status": "draft",
+        "category": "unkown",
+        "layouts": {
+            "sm": [
+                {
+                    "w": 6,
+                    "h": 6,
+                    "i": "61b0b61f50c971000d1eacc1",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "w": 6,
+                    "h": 6,
+                    "i": "61b0b61f50c971000d1eacc2",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "w": 3,
+                    "h": 3,
+                    "i": "61b0b61f50c971000d1eacc3",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "w": 3,
+                    "h": 3,
+                    "i": "61b0b61f50c971000d1eacc4",
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "md": [
+                {
+                    "w": 6,
+                    "h": 6,
+                    "i": "61b0b61f50c971000d1eacc1",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "w": 6,
+                    "h": 6,
+                    "i": "61b0b61f50c971000d1eacc2",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "w": 3,
+                    "h": 3,
+                    "i": "61b0b61f50c971000d1eacc3",
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "w": 3,
+                    "h": 3,
+                    "i": "61b0b61f50c971000d1eacc4",
+                    "x": 0,
+                    "y": 0
+                }
+            ],
+            "lg": [
+                {
+                    "w": 5,
+                    "h": 6,
+                    "x": 0,
+                    "y": 0,
+                    "i": "61b0b61f50c971000d1eacc1",
+                    "moved": false,
+                    "static": false
+                },
+                {
+                    "w": 4,
+                    "h": 6,
+                    "x": 5,
+                    "y": 0,
+                    "i": "61b0b61f50c971000d1eacc2",
+                    "moved": false,
+                    "static": false
+                },
+                {
+                    "w": 3,
+                    "h": 3,
+                    "x": 9,
+                    "y": 0,
+                    "i": "61b0b61f50c971000d1eacc3",
+                    "moved": false,
+                    "static": false
+                },
+                {
+                    "w": 3,
+                    "h": 3,
+                    "x": 9,
+                    "y": 3,
+                    "i": "61b0b61f50c971000d1eacc4",
+                    "moved": false,
+                    "static": false
+                }
+            ]
+        },
+        "fixedLayouts": {
+            "sm": [],
+            "md": [],
+            "lg": []
+        },
+        "useFixedBloc": false,
+        "creator": 25,
+        "creationDate": 1638950947,
+        "description": "",
+        "_etag": {
+            "$oid": "61b0b63650c971000d1eacc6"
+        }
+    },
+    "widgets": [
+        {
+            "_id": {
+                "$oid": "61b0b61f50c971000d1eacc4"
+            },
+            "_etag": {
+                "$oid": "61b0b61f50c971000d1eacc0"
+            },
+            "canBeCompared": true,
+            "category": {
+                "id": "excel%Ma source des affaires_Affaires%Velo Type 2",
+                "sortingType": "default"
+            },
+            "chartType": "counter",
+            "conditions": {},
+            "data": [
+                {
+                    "valueId": "bb03c79a-725b-4a0b-a979-a778b7bf2394",
+                    "id": "excel%Ma source des affaires_Affaires%Velo Type 2",
+                    "uuid": "excel%Ma source des affaires_Affaires%Velo Type 2",
+                    "name": "Velo Type 2",
+                    "calculus": "sum",
+                    "conditions": {}
+                }
+            ],
+            "groupBy": [
+                {
+                    "valueId": "bb03c79a-725b-4a0b-a979-a778b7bf2394",
+                    "id": "excel%Ma source des affaires_Affaires%Velo Type 2",
+                    "uuid": "excel%Ma source des affaires_Affaires%Velo Type 2",
+                    "name": "Velo Type 2",
+                    "calculus": "sum",
+                    "conditions": {}
+                }
+            ],
+            "pageId": "61b0680c016252d4ca140e17",
+            "request": {
+                "selectAdvanced": [
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Velo Type 2",
+                        "outputUUID": "bb03c79a-725b-4a0b-a979-a778b7bf2394",
+                        "aggFunction": "sum",
+                        "distinct": false
+                    }
+                ]
+            },
+            "title": "Somme vélo 2 ",
+            "widgetCategory": "chart",
+            "widgetProps": {
+                "activeBackground": true,
+                "activeBorder": false,
+                "activeRadius": true,
+                "backgroundColor": "#ffffff",
+                "borderRadius": "10px",
+                "fontAlignement": "center",
+                "fontColor": "#000000",
+                "fontSize": "2.6rem",
+                "fontWeight": "bold",
+                "labelColor": "#000000",
+                "labelSize": "1.4rem",
+                "labelWeight": "normal",
+                "themeStyle": "defaultStyle",
+                "colorSetThemeName": "Palette 1",
+                "colorSetTheme": [
+                    "#68B8DC",
+                    "#6794DC",
+                    "#6771DC",
+                    "#8067DC",
+                    "#A367DC",
+                    "#C767DC",
+                    "#DC67CE",
+                    "#DC67AB",
+                    "#DC6788",
+                    "#DC6967",
+                    "#DC8C67",
+                    "#DCAF67"
+                ],
+                "numberDecimal": 2,
+                "showSpaceForThousand": true,
+                "iconSelected": ""
+            },
+            "widgetType": "counter"
+        },
+        {
+            "_id": {
+                "$oid": "61b0b61f50c971000d1eacc3"
+            },
+            "_etag": {
+                "$oid": "61b0b61f50c971000d1eacc0"
+            },
+            "canBeCompared": true,
+            "category": {
+                "id": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                "sortingType": "default"
+            },
+            "chartType": "counter",
+            "conditions": {},
+            "data": [
+                {
+                    "valueId": "e9981240-a6bf-4038-a7b3-dcfb6915f752",
+                    "id": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                    "uuid": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                    "name": "Velo Type 1",
+                    "calculus": "sum",
+                    "conditions": {}
+                }
+            ],
+            "groupBy": [
+                {
+                    "valueId": "e9981240-a6bf-4038-a7b3-dcfb6915f752",
+                    "id": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                    "uuid": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                    "name": "Velo Type 1",
+                    "calculus": "sum",
+                    "conditions": {}
+                }
+            ],
+            "pageId": "61b0680c016252d4ca140e17",
+            "request": {
+                "selectAdvanced": [
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                        "outputUUID": "e9981240-a6bf-4038-a7b3-dcfb6915f752",
+                        "aggFunction": "sum",
+                        "distinct": false
+                    }
+                ]
+            },
+            "title": "Somme de vélo 1",
+            "widgetCategory": "chart",
+            "widgetProps": {
+                "activeBackground": true,
+                "activeBorder": false,
+                "activeRadius": true,
+                "backgroundColor": "#ffffff",
+                "borderRadius": "10px",
+                "fontAlignement": "center",
+                "fontColor": "#000000",
+                "fontSize": "2.6rem",
+                "fontWeight": "bold",
+                "labelColor": "#000000",
+                "labelSize": "1.4rem",
+                "labelWeight": "normal",
+                "themeStyle": "defaultStyle",
+                "colorSetThemeName": "Palette 1",
+                "colorSetTheme": [
+                    "#68B8DC",
+                    "#6794DC",
+                    "#6771DC",
+                    "#8067DC",
+                    "#A367DC",
+                    "#C767DC",
+                    "#DC67CE",
+                    "#DC67AB",
+                    "#DC6788",
+                    "#DC6967",
+                    "#DC8C67",
+                    "#DCAF67"
+                ],
+                "numberDecimal": 2,
+                "showSpaceForThousand": true,
+                "iconSelected": ""
+            },
+            "widgetType": "counter"
+        },
+        {
+            "_id": {
+                "$oid": "61b0b61f50c971000d1eacc2"
+            },
+            "_etag": {
+                "$oid": "61b0b61f50c971000d1eacc0"
+            },
+            "canBeCompared": true,
+            "category": {
+                "id": "excel%Ma source des affaires_Affaires%Nom du commercial",
+                "sortingType": "default"
+            },
+            "chartType": "pieChart",
+            "conditions": {},
+            "data": [
+                {
+                    "valueId": "3e8b189f-ca62-4233-aa36-ddfe01d9ab56",
+                    "id": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                    "uuid": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                    "name": "Velo Type 1",
+                    "calculus": "sum",
+                    "conditions": {}
+                }
+            ],
+            "groupBy": [
+                {
+                    "valueId": "38fbedf5-6123-44d6-995f-e78b59738cf4",
+                    "id": "excel%Ma source des affaires_Affaires%Nom du commercial",
+                    "uuid": "excel%Ma source des affaires_Affaires%Nom du commercial",
+                    "name": "Nom du commercial",
+                    "calculus": "sum",
+                    "conditions": {}
+                }
+            ],
+            "pageId": "61b0680c016252d4ca140e17",
+            "request": {
+                "selectAdvanced": [
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                        "outputUUID": "3e8b189f-ca62-4233-aa36-ddfe01d9ab56",
+                        "aggFunction": "sum",
+                        "distinct": false
+                    },
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Nom du commercial",
+                        "outputUUID": "38fbedf5-6123-44d6-995f-e78b59738cf4",
+                        "aggFunction": ""
+                    }
+                ],
+                "groupByFieldUUIDs": [
+                    "excel%Ma source des affaires_Affaires%Nom du commercial"
+                ]
+            },
+            "title": "Pie chart vélo1 groupé par commerciaux",
+            "widgetCategory": "chart",
+            "widgetProps": {
+                "colorSetThemeName": "Palette 1",
+                "titleStyle": "#000000",
+                "titleAlignement": [
+                    {
+                        "value": "left",
+                        "name": "Gauche"
+                    }
+                ],
+                "enableExportMenu": false,
+                "isFullScreenable": false,
+                "hideCenteredLabel": false,
+                "labelColor": "#000000",
+                "hideExternalSerieLabel": false,
+                "typeOfExternalLabel": "value",
+                "typeLabelText": "percent",
+                "externalLabelColor": "#000000",
+                "externalValueColor": "#000",
+                "visibilityLegend": false,
+                "legendPosition": "right",
+                "displayTypeLegendLabels": "truncate",
+                "hideLabelIfPercentTooSmall": true,
+                "valuePercentUnderWhichHideLabel": 5,
+                "numberDecimal": 2,
+                "hideTitleInCenter": false,
+                "titleCenterStyle": "#000000",
+                "innerRadius": 50,
+                "startAngle": 0,
+                "endAngle": 360,
+                "serieRadius": 4,
+                "borderActivation": false,
+                "colorSetTheme": [
+                    "#68B8DC",
+                    "#6794DC",
+                    "#6771DC",
+                    "#8067DC",
+                    "#A367DC",
+                    "#C767DC",
+                    "#DC67CE",
+                    "#DC67AB",
+                    "#DC6788",
+                    "#DC6967",
+                    "#DC8C67",
+                    "#DCAF67"
+                ],
+                "externalValueWeight": "normal",
+                "externalValueSize": 1,
+                "typeChart": "pieChart",
+                "dataNames": [
+                    "Velo Type 1"
+                ]
+            },
+            "widgetType": "pieChart"
+        },
+        {
+            "_id": {
+                "$oid": "61b0b61f50c971000d1eacc1"
+            },
+            "_etag": {
+                "$oid": "61b0b61f50c971000d1eacc0"
+            },
+            "canBeCompared": true,
+            "category": {
+                "id": "excel%Ma source des affaires_Affaires%Nom du commercial",
+                "sortingType": "default"
+            },
+            "chartType": "table",
+            "conditions": {},
+            "data": [
+                {
+                    "valueId": "6a645d11-9e58-48bd-82f5-4917c6d8f2ff",
+                    "id": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                    "uuid": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                    "name": "Velo Type 1",
+                    "calculus": "sum",
+                    "conditions": {}
+                },
+                {
+                    "valueId": "96f821f3-de5c-4b70-84e8-c89327376d47",
+                    "id": "excel%Ma source des affaires_Affaires%Velo Type 2",
+                    "uuid": "excel%Ma source des affaires_Affaires%Velo Type 2",
+                    "name": "Velo Type 2",
+                    "calculus": "sum",
+                    "conditions": {}
+                }
+            ],
+            "groupBy": [
+                {
+                    "valueId": "ef2f6b03-0765-47f8-a31b-9facfd5014a6",
+                    "id": "excel%Ma source des affaires_Affaires%Nom du commercial",
+                    "uuid": "excel%Ma source des affaires_Affaires%Nom du commercial",
+                    "name": "Nom du commercial",
+                    "calculus": "sum",
+                    "conditions": {}
+                }
+            ],
+            "pageId": "61b0680c016252d4ca140e17",
+            "request": {
+                "selectAdvanced": [
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                        "outputUUID": "6a645d11-9e58-48bd-82f5-4917c6d8f2ff",
+                        "aggFunction": "sum",
+                        "distinct": false
+                    },
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Velo Type 2",
+                        "outputUUID": "96f821f3-de5c-4b70-84e8-c89327376d47",
+                        "aggFunction": "sum",
+                        "distinct": false
+                    },
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Nom du commercial",
+                        "outputUUID": "ef2f6b03-0765-47f8-a31b-9facfd5014a6",
+                        "aggFunction": ""
+                    }
+                ],
+                "groupByFieldUUIDs": [
+                    "excel%Ma source des affaires_Affaires%Nom du commercial"
+                ]
+            },
+            "title": "Tableau commercial vélo1 et vélo2",
+            "widgetCategory": "chart",
+            "widgetProps": {
+                "headBackgroundColor": "#fe6055",
+                "headColor": "#333",
+                "bodyEvenRowBackgroundColor": "#F4F4F4",
+                "bodyOddRowBackgroundColor": "#FFFFFF",
+                "titleStyle": "#000000",
+                "titleAlignement": [
+                    {
+                        "value": "left",
+                        "name": "Gauche"
+                    }
+                ],
+                "enableExportMenu": false,
+                "isFullScreenable": false,
+                "freezeFirstColumn": false,
+                "displayHeadCellSeparator": false,
+                "displayBodyRowSeparator": true,
+                "displayBodyCellSeparator": true,
+                "numberDecimal": 0,
+                "showSpaceForThousand": true,
+                "enableFilters": false,
+                "headCellJustifyContent": "center",
+                "bodyCellJustifyContent": "center",
+                "enableFooters": false,
+                "enableCountRow": false,
+                "footBackgroundColor": "#fff",
+                "footColor": "#000",
+                "footCellAlignItems": "center",
+                "enablePagination": false,
+                "nbRowsPerPage": 100,
+                "paginationColor": "#7F7F7F",
+                "dataNames": [
+                    "Velo Type 1"
+                ]
+            },
+            "widgetType": "table"
+        }
+    ],
+    "widgetRequest": [
+        {
+            "widgetId": "61b0b61f50c971000d1eacc4",
+            "request": {
+                "selectAdvanced": [
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Velo Type 2",
+                        "outputUUID": "bb03c79a-725b-4a0b-a979-a778b7bf2394",
+                        "aggFunction": "sum",
+                        "distinct": false
+                    }
+                ]
+            }
+        },
+        {
+            "widgetId": "61b0b61f50c971000d1eacc3",
+            "request": {
+                "selectAdvanced": [
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                        "outputUUID": "e9981240-a6bf-4038-a7b3-dcfb6915f752",
+                        "aggFunction": "sum",
+                        "distinct": false
+                    }
+                ]
+            }
+        },
+        {
+            "widgetId": "61b0b61f50c971000d1eacc2",
+            "request": {
+                "selectAdvanced": [
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                        "outputUUID": "3e8b189f-ca62-4233-aa36-ddfe01d9ab56",
+                        "aggFunction": "sum",
+                        "distinct": false
+                    },
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Nom du commercial",
+                        "outputUUID": "38fbedf5-6123-44d6-995f-e78b59738cf4",
+                        "aggFunction": ""
+                    }
+                ],
+                "groupByFieldUUIDs": [
+                    "excel%Ma source des affaires_Affaires%Nom du commercial"
+                ]
+            }
+        },
+        {
+            "widgetId": "61b0b61f50c971000d1eacc1",
+            "request": {
+                "selectAdvanced": [
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Velo Type 1",
+                        "outputUUID": "6a645d11-9e58-48bd-82f5-4917c6d8f2ff",
+                        "aggFunction": "sum",
+                        "distinct": false
+                    },
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Velo Type 2",
+                        "outputUUID": "96f821f3-de5c-4b70-84e8-c89327376d47",
+                        "aggFunction": "sum",
+                        "distinct": false
+                    },
+                    {
+                        "fieldUUID": "excel%Ma source des affaires_Affaires%Nom du commercial",
+                        "outputUUID": "ef2f6b03-0765-47f8-a31b-9facfd5014a6",
+                        "aggFunction": ""
+                    }
+                ],
+                "groupByFieldUUIDs": [
+                    "excel%Ma source des affaires_Affaires%Nom du commercial"
+                ]
+            }
+        }
+    ]
+}
